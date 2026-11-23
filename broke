@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int scores[] = {45, 78, 92, 63, 87, 34, 91, 56};
+int *start_ptr;
+int *end_ptr;
+int *current_ptr = scores;
+
+
+int main() {
+        printf("DEBUG: %d", *current_ptr);
+
+    while (*current_ptr <= *end_ptr){
+        printf("DEBUG: %d", current_ptr);
+        if ((current_ptr >= 60) || (current_ptr <= 90)){
+            printf("Value %d is in range", *current_ptr);
+        }
+        else {
+            printf("Value %d is out of range", *current_ptr);
+        }
+    }
+    
+    
+    return 0;
+}
