@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int scores[] = {45, 78, 92, 63, 87, 34, 91, 56};
+int *start_ptr;
+int *end_ptr;
+int *curent_ptr = scores;
+
+
+int main() {
+    
+    
+    return 0;
+}
